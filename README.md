@@ -73,32 +73,6 @@ This project follows real-world backend and frontend architecture patterns and i
 - **Resend** – Email services
 - **ImageKit / Cloudinary / AWS S3** – Image storage
 
----
-
-##  Project Structure
-
-### Backend
-├── src/
-│ ├── config/ # DB, Redis, Logger, Env
-│ ├── routes/ # API routes
-│ ├── controllers/ # Request handlers
-│ ├── services/ # Business logic
-│ ├── models/ # Mongoose models
-│ ├── validations/ # Zod schemas
-│ ├── middlewares/ # Auth, error handling
-│ ├── utils/ # Helpers
-│ ├── app.ts
-│ └── server.ts
-
-### Frontend
-frontend/
-├── app/ # Next.js app router
-├── components/ # Reusable UI components
-├── store/ # Zustand stores
-├── hooks/ # Custom hooks
-├── lib/ # API & utilities
-├── public/
-
 
 ---
 
