@@ -88,7 +88,7 @@ This project follows real-world backend and frontend architecture patterns and i
 
 ### Backend Setup
 ```bash
-cd backend
+cd server
 npm install
 cp .env.example .env
 npm run dev
@@ -96,7 +96,7 @@ npm run dev
 
 ### Frontend Setup
 ```
-cd frontend
+cd client
 npm install
 npm run dev
 ```
